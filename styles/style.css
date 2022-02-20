@@ -6,6 +6,7 @@ body {
 .page {
   background-color: #f2f2f2;
   color: #000;
+  box-sizing: border-box;
 
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -124,7 +125,7 @@ body {
 .tow-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .tow-columns__paragraph {
@@ -133,4 +134,62 @@ body {
 
 /* Конец первой секции */
 
-/* началовторой секции */
+/* начало второй секции */
+
+.digits {
+  margin: 100px 0;
+}
+
+.section-title {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto 20px auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: auto;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+  padding: 0;
+}
+
+.table__heading {
+  margin: 0 0 20px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.table__text_margin-top {
+  margin: 20px 0 0 0;
+}
+
+/* Конец второй секции */
+
+/* начало 3й секции */
