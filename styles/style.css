@@ -25,7 +25,7 @@
   /* выше установили ограничения для секции */
 }
 
-.logo_place_header {
+.header__logo_place_header {
   position: absolute;
   width: 183px;
   height: 32px;
@@ -34,7 +34,7 @@
   z-index: 6;
 }
 
-.hader__title {
+.header__title {
   margin: 0;
   padding: 0 0 0 64px;
   width: 730px;
@@ -89,7 +89,7 @@
   margin: 100px 0 0 0;
 }
 
-.tow-columns {
+.two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -120,11 +120,13 @@
 }
 
 .tow-columns__paragraph {
-  margin-bottom: 30px;
+  margin: 0;
+  padding-bottom: 30px;
 }
 
 .tow-columns__paragraph:last-child {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Конец первой секции */
@@ -181,6 +183,11 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  padding-bottom: 20px;
+}
+
+.table__text:last-child {
+  padding-bottom: 0;
 }
 
 .table__text_margin-top {
@@ -262,6 +269,8 @@
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -288,7 +297,7 @@
   justify-content: space-between;
 }
 
-.footer__columns_copyright {
+.footer__columns_content_copyright {
   flex-basis: 711px;
   height: 250px;
   display: flex;
@@ -296,19 +305,19 @@
   justify-content: space-between;
 }
 
-.footer__columns_info {
+.footer__columns_content_info {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
 
-.footer__columns_social {
+.footer__columns_content_social {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
 
-.logo_place_footer {
+.footer__logo_place_footer {
   width: 183px;
   height: 35px;
 }
@@ -336,7 +345,7 @@
   justify-content: start;
   padding-bottom: 16px;
 }
-.footer_column-link {
+.footer__column-link {
   color: white;
   text-decoration: none;
   line-height: 30px;
@@ -344,7 +353,7 @@
   font-weight: normal;
 }
 
-.footer_social-icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
