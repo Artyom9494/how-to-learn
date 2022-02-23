@@ -25,10 +25,13 @@
   /* выше установили ограничения для секции */
 }
 
-.header__logo_place_header {
-  position: absolute;
+.logo {
   width: 183px;
   height: 32px;
+}
+
+.logo_place_header {
+  position: absolute;
   top: 30px;
   left: 64px;
   z-index: 6;
@@ -105,7 +108,7 @@
   font-weight: normal;
 }
 
-.tow-columns__main-text {
+.two-columns__main-text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -113,18 +116,18 @@
   min-width: 784px;
 }
 
-.tow-columns__span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
 }
 
-.tow-columns__paragraph {
+.two-columns__paragraph {
   margin: 0;
   padding-bottom: 30px;
 }
 
-.tow-columns__paragraph:last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -288,6 +291,7 @@
   background-color: #1f1f1f;
   padding: 60px 0 40px 0;
   min-height: 350px;
+  display: flex;
 }
 
 .footer__columns {
@@ -297,27 +301,26 @@
   justify-content: space-between;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
-  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.footer__columns_content_info {
+.footer__column_content_info {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
 
-.footer__logo_place_footer {
+.logo_place_footer {
   width: 183px;
   height: 35px;
 }
