@@ -12,3 +12,5 @@
 
 /* Анимация хедера */
 @import url(../blocks/rotation/rotation.css);
+/* Техники обучения */
+@import url(../blocks/techniques/techniques.css);
