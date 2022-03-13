@@ -1,3 +1,4 @@
+/* нормалайз */
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/root/root.css);
@@ -8,3 +9,6 @@
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/footer/footer.css);
+
+/* Анимация хедера */
+@import url(../blocks/rotation/rotation.css);
