@@ -16,3 +16,7 @@
 @import url(../blocks/techniques/techniques.css);
 /* Инфреймы */
 @import url(../blocks/video/video.css);
+/* oakley */
+@import url(../blocks/oakley/oakley.css);
+/* khan */
+@import url(../blocks/khan/khan.css);
