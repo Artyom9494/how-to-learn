@@ -10,7 +10,7 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/footer/footer.css);
 
-/* Анимация хедера */
+/* Анимация */
 @import url(../blocks/rotation/rotation.css);
 /* Техники обучения */
 @import url(../blocks/techniques/techniques.css);
@@ -20,3 +20,5 @@
 @import url(../blocks/oakley/oakley.css);
 /* khan */
 @import url(../blocks/khan/khan.css);
+/* logo */
+@import url(../blocks/resources/resources.css);
