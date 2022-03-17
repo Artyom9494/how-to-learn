@@ -1,8 +1,5 @@
-/* начало 3й секции */
-
 .feynman {
   margin: 0;
-  padding: 100px 0 0 0;
   background-color: #f2f2f2;
   min-height: 890px;
   text-align: center;
@@ -12,37 +9,3 @@
   background-size: 867px 637px;
   background-position: bottom left;
 }
-
-.feynman__title {
-  /* padding-top: 100px; */
-  width: 648px;
-  margin: 0 auto;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-}
-
-.feynman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  margin: 70px 0 0 0;
-}
-
-.feynman__link {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  text-decoration: none;
-  color: #2f80ed;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
-}
-
-.feynman__link:hover {
-  opacity: 0.5;
-}
-/* конец 4 блока */
